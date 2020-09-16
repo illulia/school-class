@@ -1,0 +1,8 @@
+a = input("학교를 입력하세요:")
+b = input("학과를 입력하세요:")
+c = input("학번을 입력하세요:")
+d = input("이름을 입력하세요:")
+print("학교:"+a)
+print("학과:"+b)
+print("학번:"+c)
+print("이름:"+d)

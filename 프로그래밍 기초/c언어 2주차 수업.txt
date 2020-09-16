@@ -1,0 +1,6 @@
+64비트 -> long long int earns;
+32비트 -> long int earns;
+16비트 -> short int earns
+양수만 -> unsigned int earns;
+문자 -> 'a'
+문자열 -> "char"
