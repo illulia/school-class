@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 int main()
 {
-	int n;
+	int year ;
 	
-	scanf("%d", &n);
+	scanf("%d", &year);
 	
-    printf("%c%d", (n+8)%12+'A', (n+6)%10);
-    
-    return 0;
+	printf("%c%d", (year+8)%12+'A', (year+6)%10);
 }
