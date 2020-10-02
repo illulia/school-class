@@ -1,28 +1,29 @@
 #include <stdio.h>
-
+#include <string.h>
 int main()
 {
-	char text[21];
-	int i, j, k, length;
+	char txt[21];
+	int length,a,b,c;
 	
-	scanf("%s", text);
+	scanf("%s", &txt);
 	
-    length = strlen(text);
-    
-    for(i=1; i<=length; i++)
-    {
-    	printf("*");
-    	
-        for(j=0; j<i; j++)
+	length = strlen(txt);
+	
+	for(a=1; a<=length; a++)
+	{
+		printf("*");
+		
+		for(b=0; b<a; b++)
 		{
-        	printf("%c",text[j]);
+			printf("%c", txt[b]);
 		}
 		
-        for(k=length; i<k; k--)
+		for(c=length; a<c; c--)
 		{
-        	printf(" ");
+			printf(" ");
 		}
 		
-        printf("*\n");
-    }
+		printf("*\n");
+	}
+	
 }
