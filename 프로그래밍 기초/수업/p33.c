@@ -2,12 +2,12 @@
 
 int main()
 {
-	float a,b;
+	double a,b;
 	
-	do
-	{
-		printf("%.3f", (a-b)/(a*b));
-	} while(a != float;);
+	while(scanf("%lf %lf", &a, &b) == 2)
+	{	
+		printf("%.3lf\n", (a-b)/(a*b));
+	}
 	
 	return 0;
 }
