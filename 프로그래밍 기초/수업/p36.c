@@ -2,15 +2,15 @@
 
 int main()
 {
-	int num, i;
-	float sum1, sum2;
+	int num, i = 0;
+	float sum1, sum2 = 0;
 	
 	scanf("%d", &num);
 	
 	for(i=1; i<=num; i++)
 	{
 		sum1 = sum1 + 1.0/i;
-		
+	
 		if(i%2!=0)
 			sum2 = sum2 + 1.0/i;
 		else
