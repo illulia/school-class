@@ -11,9 +11,7 @@ int main()
 	count_char = 0;
 	
 	while(line != '#')
-	{
-		line = getchar();
-		
+	{	
 		if(line == ' ')
 			count_space += 1;
 		else if(line == '\n')
@@ -22,6 +20,8 @@ int main()
 		}
 		else
 			count_char += 1;
+	
+		line = getchar();
 	}
 		
 	printf("%d %d %d", count_space, count_newline, count_char);
