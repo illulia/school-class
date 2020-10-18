@@ -14,14 +14,14 @@ int main()
 			
 	if(gross_pay<=LOW)
 		taxes = gross_pay*0.15;
-	else if(gross<=MIDDLE)
+	else if(gross_pay<=MIDDLE)
 		taxes = gross_pay*0.2;
 	else
 		taxes = gross_pay*0.25;
 		
 	net_pay = gross_pay - taxes;	
 		
-	printf("%lf %lf %lf", gross_pay, taxes, net_pay);
+	printf("%.2lf %.2lf %.2lf", gross_pay, taxes, net_pay);
 	
 	return 0;
 }
