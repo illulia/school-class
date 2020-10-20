@@ -15,9 +15,9 @@ int main()
 	if(gross_pay<=LOW)
 		taxes = gross_pay*0.15;
 	else if(gross_pay<=MIDDLE)
-		taxes = gross_pay*0.2;
+		taxes = 300*0.15+(gross_pay-300)*0.2;
 	else
-		taxes = gross_pay*0.25;
+		taxes = 300*0.15+150*0.2+(gross_pay-450)*0.25;
 		
 	net_pay = gross_pay - taxes;	
 		
